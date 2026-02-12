@@ -3,3 +3,7 @@ class Task:
         self.title = title
         self.description = description
         self.complete = complete
+
+class TaskManeger:
+    def __init__ (self):
+        self.lista = []
