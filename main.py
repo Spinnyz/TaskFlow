@@ -9,5 +9,10 @@ class TaskManager:
         self.lista = []
     
     def add_task (self, title, description):
-        lista  = Task(title, description)
-        self.append(lista)
+        task  = Task(title, description)
+        self.lista.append(task)
+
+t1 = Task("Pyhton", "lala", True)
+print (t1.title)
+print (t1.description)
+print (t1.complete)
