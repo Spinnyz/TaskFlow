@@ -19,3 +19,6 @@ class TaskManager:
             print (f"{indice} - {tarefa.title} - {tarefa.description} - {status}")
 
 
+    def complete_task (self,indice):
+        if indice < 0 and len(self.lista):
+            status = "Concluida" if tarefa.completed else "Pendente"
