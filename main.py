@@ -19,6 +19,3 @@ class TaskManager:
             print (f"{indice} - {tarefa.title} - {tarefa.description} - {status}")
 
 
-t1 = TaskManager()
-t1.add_task("Estuda", "Python")
-t1.list_tasks()
